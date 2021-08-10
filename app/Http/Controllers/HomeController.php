@@ -10,15 +10,15 @@ class HomeController extends Controller
         return view('pages.home');
     }
     public function about(){
-        return 'about p';
+        return view('pages.about');
     }
     public function service(){
-        return 'service page';
+        return view('pages.service');
     }
     public function contact(){
-        return 'contact page';
+        return view('pages.contact');
     }
     public function login(){
-        return 'login page';
+        return view('pages.login');
     }
 }
